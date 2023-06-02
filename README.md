@@ -13,6 +13,7 @@ We will mainly focus on the pre-processing of the open dataset using MNE-Python 
 
 ## Data
 EEG data from an auditory oddball task (an open dataset accessed via OpenNeuro)
+
 Link to the open dataset: https://openneuro.org/datasets/ds003061/versions/1.1.2
 
 Dataset description:
@@ -31,7 +32,7 @@ Dataset description:
 
 # Results
 ## Progress overview
-Our current progress include reading the raw data of the open dataset, selecting subset of the channels, visualizing the sensor locations, referencing, filtering, extract events using annotations, creating epochs for the events, creating evoked data, and wrapping the previous steps into a pre-precessing function, and then finally loop over all 13 subjects to visualize the results between the standard and the oddball condition.
+Our current progress includes reading the raw data of the open dataset, selecting subset of the channels, visualizing the sensor locations, referencing, filtering, extract events using annotations, creating epochs for the events, creating evoked data, and wrapping the previous steps into a pre-precessing function, and then finally loop over all 13 subjects to visualize the results between the standard and the oddball condition.
 
 ## Tools I learned during this project
 - EEG Preprocessing steps
